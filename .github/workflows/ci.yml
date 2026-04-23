@@ -1,5 +1,4 @@
-# .github/workflows/ci.yml
-name: Pipeline CI - Tests Automáticos
+name: Pipeline CI - Tests Automaticos
 
 on:
   push:
@@ -12,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar el código
+      - name: Descargar el codigo
         uses: actions/checkout@v4
 
       - name: Instalar Node.js

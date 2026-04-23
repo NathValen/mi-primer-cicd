@@ -4,7 +4,7 @@ const app = express();
 
 // Función que suma dos números (esto es lo que vamos a testear)
 function sumar(a, b) {
-  return a * b;
+  return a + b;
 }
 
 // Ruta principal

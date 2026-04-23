@@ -15,10 +15,4 @@ app.get('/sumar/:a/:b', (req, res) => {
   res.json({ resultado });
 });
 
-// Render asigna el puerto automáticamente via variable de entorno
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en puerto ${PORT}`);
-});
-
 module.exports = { app, sumar };
